@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>SAAD</h2>
+
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="accueil" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Bonjour, je suis <span>Saad</span></h1>
+
+            <h2>Étudiant ingénieur en Intelligence Artificielle</h2>
+
+            <p>
+                Passionné par l'Intelligence Artificielle,
+                la Data Science et le développement.
+            </p>
+
+            <button onclick="afficherMessage()">
+                Découvrir mon profil
+            </button>
+
+            <p id="message"></p>
+
+        </div>
+
+    </section>
+
+
+    <section id="apropos">
+
+        <h2>À propos de moi</h2>
+
+        <p>
+            Je suis étudiant en dernière année du cycle ingénieur
+            en Intelligence Artificielle et Sciences des Données.
+            J'aime développer des applications intelligentes
+            et travailler sur des projets basés sur l'IA.
+        </p>
+
+    </section>
+
+
+    <section id="projets">
+
+        <h2>Mes projets</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <h3>TalentFlow AI</h3>
+
+                <p>
+                    Plateforme intelligente permettant d'analyser
+                    et comparer automatiquement des CV.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h3>Machine Learning</h3>
+
+                <p>
+                    Développement de modèles de Machine Learning
+                    pour analyser et prédire des données.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h3>Data Science</h3>
+
+                <p>
+                    Analyse, visualisation et traitement
+                    de données avec Python.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="nom"
+                placeholder="Votre nom"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Votre email"
+                required
+            >
+
+            <textarea
+                id="texte"
+                placeholder="Votre message"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Envoyer
+            </button>
+
+        </form>
+
+        <p id="confirmation"></p>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 Saad - Portfolio</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
